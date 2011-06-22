@@ -18,10 +18,10 @@ pledgebank and commonlib, and do something like the following
 (using dracos' forks as an example here):
 
 -------------------
-$ git clone git@github.com:dracos/pledgebank.git
+$ git clone git@github.com:mysociety/pledgebank.git
 [...]
 $ cd pledgebank/
-$ git config submodule.commonlib.url git@github.com:dracos/commonlib.git
+$ git config submodule.commonlib.url git@github.com:mysociety/commonlib.git
 $ git submodule update --init
 [...]
 Submodule path 'commonlib': checked out 'd49d5b0413b85099397cff550fec7fd94c2943fc'
